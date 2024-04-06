@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+    body {
+        font-family: "Kalam", cursive;
+        background-image: url('images/nav-buttons.jpg'); /* Use your actual background image path */
+        background-repeat: repeat;
+        color: orange; 
+        /* Any other common styles */
+    }
+    
+}
+head {
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+}
+/* Font Definitions */
+.kalam-light {
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+}
+
+.kalam-regular {
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+}
+
+.kalam-bold {
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+}
+
+/* Header Styles */
+header {
+    background-image: url('images/nav-buttons.jpg');
+    background-repeat: repeat;
+    padding: 5px 0;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+}
+
+/* Main Title Styles */
+.main-title {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 220px;
+    background: linear-gradient(to bottom, orange 50%, rgba(255, 255, 255, 0.3) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 4px 6px rgba(240, 5, 5, 0.4),
+        0px 1px 2px rgba(14, 3, 3, 0.3);
+}
+
+.make-a-wish h2 {
+    font-family: 'Kalam', cursive;
+    background: linear-gradient(to bottom, rgba(245, 240, 240, 0.8) 50%, rgba(255, 255, 255, 0.3) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 4px 6px rgba(213, 216, 10, 0.4),
+        0px 1px 2px rgba(148, 240, 73, 0.3);
+    font-size: 80px; 
+    color: #f5d2da; 
+    margin-bottom: 10px;
+}
+
+/* Make a Wish Section */
+.upload-section {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    align-items: center;
+    height: 260px;
+}
+
+.upload-box {
+    width: 250px;
+    height: 200px;
+    border: 1px solid #917d7d;
+    background-image: url('images/nav-buttons.jpg');
+    background-repeat: repeat !important;
+    position: relative;
+    border-radius: 10px;
+}
+
+.wish-details input[type="text"] {
+    background-image: url('images/nav-buttons.jpg');
+    background-repeat: repeat !important;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: greenyellow
+}
+
+.wish-details textarea {
+    background-image: url('images/nav-buttons.jpg');
+    background-repeat: repeat !important;
+    color: greenyellow;
+    width: 100% 
+}
+
+/* Style the whole wishes area */
+.wishes-section .wish-display-area {
+    overflow-y: auto;  
+    max-height: 300px; 
+}
+
+/* Style an individual wish */
+.wishes-section .wish {
+    border: 1px solid #ddd; 
+    margin-bottom: 10px; 
+    padding: 15px;
+}
+
+/* Login Styles */
+.login-container {
+    background-image: url('images/nav-buttons.jpg');
+    background-repeat: repeat !important;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: greenyellow
+}
+
+/* Signup Styles */
+.signup-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px; 
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* ... Remaining styles ... */

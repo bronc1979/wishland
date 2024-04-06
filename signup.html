@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+
+
+<head>
+
+  <link rel="stylesheet" href="styles.css"> 
+  <title>Wishland Login</title> 
+</head>
+
+
+<body>
+  <link rel="stylesheet" href="styles.css">
+  <section class="signup-section">
+    <h2>Sign Up</h2>
+    <form id="signup-form">
+      <div>
+        <label for="signup-username">Username:</label>
+        <input type="text" id="signup-username" name="signup-username" required>
+        <span class="error-message"></span>
+      </div>
+      <div>
+        <label for="signup-email">Email:</label>
+        <input type="email" id="signup-email" name="signup-email" required>
+        <span class="error-message"></span>
+      </div>
+
+
+      <div>
+        <label for="signup-password">Password:</label>
+        <input type="password" id="signup-password" name="signup-password" required>
+        <span class="error-message"></span>
+      </div>
+      <div>
+        <label for="signup-phone">Phone Number:</label>
+        <input type="tel" id="signup-phone" name="signup-phone">
+        <span class="error-message"></span>
+      </div>
+      <div>
+        <label for="signup-zipcode">Zip Code:</label>
+        <input type="text" id="signup-zipcode" name="signup-zipcode">
+        <span class="error-message"></span>
+      </div>
+      <div>
+        <label for="signup-picture">Profile Picture:</label>
+        <input type="file" id="signup-picture" name="signup-picture" accept="image/*">
+      </div>
+      <button type="submit">Sign Up</button>
+    </form>
+  </section>
+  <script src="signup.js"></script>
+</body>
+
+</html>
